@@ -1,0 +1,69 @@
+﻿<Window x:Class="minecraftModTools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:minecraftModTools"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ToolBar Height="27" VerticalAlignment="Top">
+            <Menu>
+                <MenuItem x:Name="FileMenu" Header="File" Height="24">
+                    <MenuItem Header="New project..."/>
+                    <MenuItem Header="Open"/>
+                    <MenuItem Header="Open recent"/>
+                    <MenuItem Header="Save"/>
+                    <MenuItem Header="Save as..."/>
+                </MenuItem>
+            </Menu>
+            <Menu>
+                <MenuItem x:Name="WindowMenu" Header="Window" Height="24">
+                    <MenuItem Header="-"/>
+                </MenuItem>
+            </Menu>
+            <Menu>
+                <MenuItem x:Name="HelpMenu" Header="Help" Height="24">
+                    <MenuItem Header="GitHub"/>
+                    <MenuItem Header="Discord"/>
+                </MenuItem>
+
+            </Menu>
+        </ToolBar>
+        <Grid Margin="0,27,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="2.5*" />
+                <ColumnDefinition Width="5" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid >
+                <StackPanel Margin="5,0,5,0">
+                    <Label Background="{x:Null}" BorderBrush="Black" Margin="0,0,0,5">
+                        Project View
+                    </Label>
+                    <Button>
+                        Sync with project files
+                    </Button>
+                </StackPanel>
+            </Grid>
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
+            <TabControl Grid.Column="2">
+                <TabItem Header="TabItem">
+                    <Grid Background="#FFE5E5E5" Margin="10,0,-10,0"/>
+                </TabItem>
+                <TabItem Header="TabItem">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
+            <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch" />
+            <StackPanel Grid.Column="4">
+                <Label>
+                    Object View
+                </Label>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</Window>
