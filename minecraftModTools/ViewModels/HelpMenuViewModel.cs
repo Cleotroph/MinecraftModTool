@@ -8,10 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace minecraftModTools.ViewModels
-{
-    class HelpMenuViewModel : INotifyPropertyChanged
-    {
+namespace minecraftModTools.ViewModels {
+    class HelpMenuViewModel : INotifyPropertyChanged {
 
         public ICommand Github { get; init; }
 

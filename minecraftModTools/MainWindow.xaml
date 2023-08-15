@@ -5,19 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:minecraftModTools"
         xmlns:views="clr-namespace:minecraftModTools.Views"
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ToolBar Height="27" VerticalAlignment="Top">
-            <Menu>
-                <MenuItem x:Name="FileMenu" Header="File" Height="24">
-                    <MenuItem Header="New project..."/>
-                    <MenuItem Header="Open"/>
-                    <MenuItem Header="Open recent"/>
-                    <MenuItem Header="Save"/>
-                    <MenuItem Header="Save as..."/>
-                </MenuItem>
-            </Menu>
+            <views:FileMenuView/>
             <Menu>
                 <MenuItem x:Name="WindowMenu" Header="Window" Height="24">
                     <MenuItem Header="-"/>
