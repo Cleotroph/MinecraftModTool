@@ -17,6 +17,7 @@
             <MenuItem Header="Open recent" Command="{Binding OpenRecent}"/>
             <MenuItem Header="Save" Command="{Binding Save}"/>
             <MenuItem Header="Save as..." Command="{Binding SaveAs}"/>
+            <MenuItem Header="{Binding TestOutput}" Command="{Binding TestInput}"/>
         </MenuItem>
     </Menu>
 </UserControl>

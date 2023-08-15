@@ -23,6 +23,18 @@ namespace minecraftModTools.ViewModels {
         public ICommand Save { get; init; }
         public ICommand SaveAs { get; init; }
 
+        public ICommand TestInput { get; init; }
+        private string testValue;
+        public string TestOutput { 
+            get {
+                return testValue;
+            }
+            set {
+                testValue = value;
+                OnPropertyChange(nameof(TestOutput));
+            }
+        }
+
         public FileMenuViewModel() {
             NewProject = new RelayCommand(() => {
                 Debug.WriteLine("NewProject");
@@ -44,6 +56,10 @@ namespace minecraftModTools.ViewModels {
                 Debug.WriteLine("SaveAs");
             });
 
+            TestOutput = "A";
+            TestInput = new RelayCommand(() => {
+                TestOutput = "Hello Menu!";
+            });
         }
 
 
