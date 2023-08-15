@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Max Cerasoli\Desktop\graphRefactorTool\minecraftModTools\obj\Debug\net6.0-windows\
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\
 minecraftModTools
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Max Cerasoli\Desktop\graphRefactorTool\minecraftModTools\App.xaml
-11407045341
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\App.xaml
+2896049177
 
-5-133320829
-204-2076425563
-MainWindow.xaml;
+8593684986
+2091331825461
+MainWindow.xaml;Views\HelpMenuView.xaml;
 
-False
+True
 

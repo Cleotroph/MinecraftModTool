@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max Cerasoli\\Desktop\\graphRefactorTool\\minecraftModTools\\minecraftModTools.csproj": {}
+    "C:\\Users\\Max Cerasoli\\Desktop\\MinecraftModTool\\minecraftModTools\\minecraftModTools.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max Cerasoli\\Desktop\\graphRefactorTool\\minecraftModTools\\minecraftModTools.csproj": {
+    "C:\\Users\\Max Cerasoli\\Desktop\\MinecraftModTool\\minecraftModTools\\minecraftModTools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max Cerasoli\\Desktop\\graphRefactorTool\\minecraftModTools\\minecraftModTools.csproj",
+        "projectUniqueName": "C:\\Users\\Max Cerasoli\\Desktop\\MinecraftModTool\\minecraftModTools\\minecraftModTools.csproj",
         "projectName": "minecraftModTools",
-        "projectPath": "C:\\Users\\Max Cerasoli\\Desktop\\graphRefactorTool\\minecraftModTools\\minecraftModTools.csproj",
+        "projectPath": "C:\\Users\\Max Cerasoli\\Desktop\\MinecraftModTool\\minecraftModTools\\minecraftModTools.csproj",
         "packagesPath": "C:\\Users\\Max Cerasoli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max Cerasoli\\Desktop\\graphRefactorTool\\minecraftModTools\\obj\\",
+        "outputPath": "C:\\Users\\Max Cerasoli\\Desktop\\MinecraftModTool\\minecraftModTools\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Max Cerasoli\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "MvvmLightLibs": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
             "Ookii.Dialogs.Wpf": {
               "target": "Package",
               "version": "[5.0.1, )"
