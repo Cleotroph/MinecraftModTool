@@ -111,3 +111,5 @@ C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.
 C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\FileMenuView.baml
 C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\ObjectExplorerView.g.cs
 C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\ObjectExplorerView.baml
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\NewProjectPopup.g.cs
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\NewProjectPopup.baml

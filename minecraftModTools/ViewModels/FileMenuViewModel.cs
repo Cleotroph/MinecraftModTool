@@ -26,6 +26,7 @@ namespace minecraftModTools.ViewModels {
 
         public FileMenuViewModel() {
             NewProject = new RelayCommand(() => {
+                MinecraftModToolsModel.project = new Project("New Project");
                 Debug.WriteLine("NewProject");
             });
 

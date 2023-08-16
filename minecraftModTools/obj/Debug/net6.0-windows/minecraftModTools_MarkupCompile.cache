@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\App.xaml
-4211524241
+5-814579208
 
-161259110445
+171318302595
 2091331825461
-MainWindow.xaml;Views\FileMenuView.xaml;Views\HelpMenuView.xaml;Views\ObjectExplorerView.xaml;
+MainWindow.xaml;Views\FileMenuView.xaml;Views\HelpMenuView.xaml;Views\NewProjectPopup.xaml;Views\ObjectExplorerView.xaml;
 
 False
 

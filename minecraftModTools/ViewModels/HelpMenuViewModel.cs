@@ -21,7 +21,7 @@ namespace minecraftModTools.ViewModels {
                 Process.Start(new ProcessStartInfo("https://github.com/Cleotroph/MinecraftModTool") { UseShellExecute = true });
             });
             Discord = new RelayCommand(() => {
-                MinecraftModToolsModel.project = new Project("TEST");
+                Process.Start(new ProcessStartInfo("https://discord.gg/qxPqZ6gXkt") { UseShellExecute = true });
             });
         }
 

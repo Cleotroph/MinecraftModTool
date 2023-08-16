@@ -20,6 +20,7 @@ namespace minecraftModTools.Model {
             }
             set { 
                 current_project = value;
+                objectExplorer.RootMenuItem.Clear();
                 objectExplorer.RootMenuItem.Add(current_project!);
             }
         }
