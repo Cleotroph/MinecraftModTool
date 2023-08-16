@@ -1,4 +1,5 @@
 ﻿using GalaSoft.MvvmLight.CommandWpf;
+using minecraftModTools.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,10 +13,15 @@ namespace minecraftModTools.ViewModels {
     class HelpMenuViewModel : INotifyPropertyChanged {
 
         public ICommand Github { get; init; }
+        public ICommand Discord { get; init; }
 
         public HelpMenuViewModel() {
+            MinecraftModToolsModel.HelpMenu = this;
             Github = new RelayCommand(() => {
                 Process.Start(new ProcessStartInfo("https://github.com/Cleotroph/MinecraftModTool") { UseShellExecute = true });
+            });
+            Discord = new RelayCommand(() => {
+                MinecraftModToolsModel.project = new Project("TEST");
             });
         }
 

@@ -107,3 +107,7 @@ C:\Users\camko\Documents\CS\SideProjects\mcmodding\MinecraftModTool\minecraftMod
 C:\Users\camko\Documents\CS\SideProjects\mcmodding\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\minecraftModTools.pdb
 C:\Users\camko\Documents\CS\SideProjects\mcmodding\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\minecraftModTools.genruntimeconfig.cache
 C:\Users\camko\Documents\CS\SideProjects\mcmodding\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\ref\minecraftModTools.dll
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\FileMenuView.g.cs
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\FileMenuView.baml
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\ObjectExplorerView.g.cs
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\Views\ObjectExplorerView.baml

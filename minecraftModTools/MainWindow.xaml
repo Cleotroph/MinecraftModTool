@@ -13,7 +13,7 @@
             <views:FileMenuView/>
             <Menu>
                 <MenuItem x:Name="WindowMenu" Header="Window" Height="24">
-                    <MenuItem Header="-"/>
+                    
                 </MenuItem>
             </Menu>
             <views:HelpMenuView/>
@@ -50,6 +50,7 @@
                 <Label>
                     Object View
                 </Label>
+                <views:ObjectExplorerView/>
             </StackPanel>
         </Grid>
     </Grid>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\camko\Documents\CS\SideProjects\mcmodding\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\obj\Debug\net6.0-windows\
 minecraftModTools
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\camko\Documents\CS\SideProjects\mcmodding\MinecraftModTool\minecraftModTools\App.xaml
-31885112829
+C:\Users\Max Cerasoli\Desktop\MinecraftModTool\minecraftModTools\App.xaml
+4211524241
 
-10726942691
-2091212628465
-MainWindow.xaml;Views\FileMenuView.xaml;Views\HelpMenuView.xaml;
+18-1936008123
+2091331825461
+MainWindow.xaml;Views\FileMenuView.xaml;Views\HelpMenuView.xaml;Views\ObjectExplorerView.xaml;
 
 True
 

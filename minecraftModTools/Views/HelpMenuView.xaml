@@ -13,7 +13,7 @@
     <Menu>
         <MenuItem  x:Name="HelpMenu" Header="Help" Height="24">
             <MenuItem Header="Github" Command="{Binding Github}"/>
-            <MenuItem Header="Discord"/>
+            <MenuItem Header="Discord" Command="{Binding Discord}"/>
         </MenuItem>
     </Menu>
 </UserControl>
