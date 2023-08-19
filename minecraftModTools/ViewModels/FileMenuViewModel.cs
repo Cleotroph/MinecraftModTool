@@ -11,13 +11,7 @@ using System.Windows.Input;
 
 namespace minecraftModTools.ViewModels {
     class FileMenuViewModel : INotifyPropertyChanged {
-        /*
-         <MenuItem Header="New project..."/>
-        <MenuItem Header="Open"/>
-        <MenuItem Header="Open recent"/>
-        <MenuItem Header="Save"/>
-        <MenuItem Header="Save as..."/>
-         */
+        
         public ICommand NewProject { get; init; }
         public ICommand Open { get; init; }
         public ICommand OpenRecent { get; init; }
@@ -25,9 +19,22 @@ namespace minecraftModTools.ViewModels {
         public ICommand SaveAs { get; init; }
 
         public FileMenuViewModel() {
+            
             NewProject = new RelayCommand(() => {
                 MinecraftModToolsModel.project = new Project("New Project");
                 Debug.WriteLine("NewProject");
+                string filename = ""; // uhhhhh.... this cant be defined above....
+                var dialog = new Microsoft.Win32.SaveFileDialog(); // chose save file dialouge instead of open 
+                bool? result = dialog.ShowDialog();
+
+                // Process open file dialog box results
+                if (result == true) {
+                    // Open document
+                    filename = dialog.FileName;
+                }
+
+                Debug.WriteLine(filename);
+
             });
 
             Open = new RelayCommand(() => {
